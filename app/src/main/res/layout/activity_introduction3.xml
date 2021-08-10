@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Introduction.Introduction3">
+
+    <ImageView
+        android:id="@+id/avatar_introduction3"
+        android:layout_width="265dp"
+        android:layout_height="261dp"
+        android:layout_marginBottom="221dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_introduction3"
+        app:srcCompat="@drawable/host_avatar_icon" />
+
+    <ImageView
+        android:id="@+id/speechbubble_introduction3"
+        android:layout_width="320dp"
+        android:layout_height="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/speechbubble" />
+
+    <TextView
+        android:id="@+id/text_introduction3"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="48dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Alright, enough for the introduction, let's jump in!"
+        app:layout_constraintBottom_toTopOf="@+id/avatar_introduction3"
+        app:layout_constraintEnd_toEndOf="@+id/speechbubble_introduction3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonToMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
