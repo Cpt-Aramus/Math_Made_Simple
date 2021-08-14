@@ -2,6 +2,7 @@ package MainMenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -9,6 +10,8 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import com.example.mathmadesimple.R;
+
+import SimpleMathOperations.SimpleMathOperationsMain;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -32,6 +35,16 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(getApplicationContext(), "You clicked " + itemsMainMenu[i], Toast.LENGTH_SHORT).show();
+
+                switch (itemsMainMenu[i]) {
+                    case "Simple Math Operations":
+                        Intent intentToSimpleMathOperationsMain = new Intent(getApplicationContext(), SimpleMathOperationsMain.class);
+                        startActivity(intentToSimpleMathOperationsMain);
+                        break;
+                    default:
+                        Toast.makeText(getApplicationContext(), "You called an Item that was not available in the list", Toast.LENGTH_LONG).show();
+                        break;
+                }
 
 
             }

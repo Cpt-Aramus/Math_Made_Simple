@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/app_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="MainMenu.MainMenu"></activity>
+        <activity android:name="SimpleMathOperations.SimpleMathOperationsMain"></activity>
+        <activity android:name="MainMenu.MainMenu" />
         <activity android:name="Introduction.Introduction3" />
         <activity android:name="Introduction.Introduction2" />
         <activity android:name="Introduction.MainActivity">
