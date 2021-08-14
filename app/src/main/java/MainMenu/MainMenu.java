@@ -14,9 +14,9 @@ public class MainMenu extends AppCompatActivity {
 
     GridView gridViewMainMenu;
 
-    String[] itemsMainMenu = {"Geomotry", "Simple Math Operations", "Graphs", "Functions"};
+    String[] itemsMainMenu = {"Geomotry", "Simple Math Operations", "Graphs", "Functions", "Fractions", "Percents", "Exercise", "Test"};
 
-    int[] pictureItemsMainMenuIDs = {R.drawable.logo_geometry, R.drawable.logo_simple_math_operations,R.drawable.logo_graphs, R.drawable.logo_functions};
+    int[] pictureItemsMainMenuIDs = {R.drawable.logo_geometry, R.drawable.logo_simple_math_operations,R.drawable.logo_graphs, R.drawable.logo_functions, R.drawable.logo_fractions, R.drawable.logo_percents, R.drawable.logo_exercise, R.drawable.logo_test};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
