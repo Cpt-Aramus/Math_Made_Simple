@@ -9,6 +9,10 @@ import android.widget.Button;
 
 import com.example.mathmadesimple.R;
 
+/**
+ * starting point of the Math-Made-Simple App
+ * Leading to Activity Introduction2
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

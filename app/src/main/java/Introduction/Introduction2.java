@@ -9,6 +9,10 @@ import android.widget.Button;
 
 import com.example.mathmadesimple.R;
 
+/**
+ * This Activity represents the first introduction and the introduction of the developer avatar
+ * Leading to activity Introduction 3
+ */
 public class Introduction2 extends AppCompatActivity {
 
     @Override

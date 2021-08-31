@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.example.mathmadesimple.R;
 
+/**
+ * This class is responsible for dynamically representing the topics of the Math-Made-Simple App visually through Buttons.
+ */
 public class MainMenuAdapter extends BaseAdapter {
 
     private Context context;

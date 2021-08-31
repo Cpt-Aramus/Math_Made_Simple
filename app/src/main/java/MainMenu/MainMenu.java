@@ -13,6 +13,11 @@ import com.example.mathmadesimple.R;
 
 import SimpleMathOperations.SimpleMathOperationsMain;
 
+/**
+ * This class represents the Main Menu and comes after the Introduction.
+ * This activity displays the various topics of the Math-Made-Simple App.
+ * With a click on either button you switch into the respective topic overview (= switching to the package with the topic name)
+ */
 public class MainMenu extends AppCompatActivity {
 
     GridView gridViewMainMenu;

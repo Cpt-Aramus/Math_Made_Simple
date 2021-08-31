@@ -11,6 +11,10 @@ import com.example.mathmadesimple.R;
 
 import MainMenu.MainMenu;
 
+/**
+ * This activity represents the last introduction before the Main Menu Screen
+ * Leading to MainMenu
+ */
 public class Introduction3 extends AppCompatActivity {
 
     @Override
